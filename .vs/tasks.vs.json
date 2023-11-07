@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-MyDirectXEngine",
+      "appliesTo": "MyDirectXEngine/MyDirectXEngine.sln",
+      "type": "launch"
+    }
+  ]
+}
