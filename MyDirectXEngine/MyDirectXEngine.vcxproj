@@ -59,10 +59,11 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>I:\MyDirectX\MyDirectXEngine\MyDirectXEngine\Source;I:\MyDirectX\MyDirectXEngine\MyDirectX\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -81,6 +82,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>I:\MyDirectX\MyDirectXEngine\MyDirectXEngine\Source;I:\MyDirectX\MyDirectXEngine\MyDirectX\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -90,10 +92,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MyDirectXEngine\Source\Application.cpp" />
     <ClCompile Include="MyDirectXEngine\Source\pch.cpp" />
     <ClCompile Include="MyDirectXEngine\Source\WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MyDirectXEngine\Source\Application.h" />
     <ClInclude Include="MyDirectXEngine\Source\pch.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
@@ -102,6 +106,11 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="MyDirectXEngine\Content\Icons\FirstDirectX.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MyDirectX\MyDirectX.vcxproj">
+      <Project>{074abbc1-c509-40b5-a295-1e62fa20e424}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

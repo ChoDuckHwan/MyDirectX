@@ -1,2 +1,4 @@
-﻿  WinMain.cpp
-  MyDirectXEngine.vcxproj -> I:\MyDirectX\MyDirectXEngine\Build\MyDirectXEngine\Debug\MyDirectXEngine.exe
+﻿  Application.cpp
+  pch.cpp
+  WinMain.cpp
+LINK : fatal error LNK1104: 'I:\MyDirectX\MyDirectXEngine\Build\MyDirectX\Debug\MyDirectX.lib' 파일을 열 수 없습니다.

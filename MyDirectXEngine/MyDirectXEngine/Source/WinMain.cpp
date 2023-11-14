@@ -52,6 +52,7 @@ int Run()
 
 	return (int)msg.wParam;
 }
+/*
 int CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
 {
 
@@ -61,7 +62,7 @@ int CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
 	MessageLoop();
 	return 0;
 }
-
+*/
 LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 {
 	switch (iMessage)

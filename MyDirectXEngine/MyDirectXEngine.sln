@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyDirectXEngine", "MyDirectXEngine.vcxproj", "{4AF95136-AEE9-47FE-A9EA-082A24ECF642}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyDirectX", "MyDirectX\MyDirectX.vcxproj", "{074ABBC1-C509-40B5-A295-1E62FA20E424}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{4AF95136-AEE9-47FE-A9EA-082A24ECF642}.Debug|x64.Build.0 = Debug|x64
 		{4AF95136-AEE9-47FE-A9EA-082A24ECF642}.Release|x64.ActiveCfg = Release|x64
 		{4AF95136-AEE9-47FE-A9EA-082A24ECF642}.Release|x64.Build.0 = Release|x64
+		{074ABBC1-C509-40B5-A295-1E62FA20E424}.Debug|x64.ActiveCfg = Debug|x64
+		{074ABBC1-C509-40B5-A295-1E62FA20E424}.Debug|x64.Build.0 = Debug|x64
+		{074ABBC1-C509-40B5-A295-1E62FA20E424}.Release|x64.ActiveCfg = Release|x64
+		{074ABBC1-C509-40B5-A295-1E62FA20E424}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

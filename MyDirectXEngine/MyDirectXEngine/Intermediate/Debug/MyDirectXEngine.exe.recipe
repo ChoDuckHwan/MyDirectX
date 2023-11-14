@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>I:\MyDirectX\MyDirectXEngine\Build\MyDirectX\Debug\MyDirectX.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>I:\MyDirectX\MyDirectXEngine\Build\MyDirectXEngine\Debug\MyDirectXEngine.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
